@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "SofiaProModified";
+    src: url("/Font/SofiaProModified-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SofiaProModified";
+    font-weight: 600;
+    src: url("/Font/SofiaProModified-Semibold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "SofiaProModified";
+    font-weight: 700;
+    src: url("/Font/SofiaProModified-Bold.woff2") format("woff2");
+}
+
+body { 
+    font-family: "SofiaProModified", serif
+}
+
+
+.button-call-to-action { 
+    padding: 0.75em 1.25em;
+    border-radius: 10px;
+    background: #e76837;
+    background: -moz-linear-gradient(45deg,#e76837 0%,#c69a3b 100%);
+    background: -webkit-linear-gradient(
+    45deg,#e76837 0%,#c69a3b 100%);
+    background: linear-gradient(
+    45deg,#e76837 0%,#c69a3b 100%);
+    color: #fff!important;
+    cursor: pointer;
+}
+.main-nav-link {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

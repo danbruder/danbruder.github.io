@@ -1,0 +1,29 @@
+baseURL = 'https://blog.structionsite.com/'
+languageCode = 'en-us'
+title = 'StructionSite Engineering'
+theme = "hugo-theme-minos"
+
+[params]
+    customCss = ["css/custom.css"]
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    #style = 'dracula'
+    #style = 'native'
+    #style = 'monokai'
+    #style = 'vs'
+
+    #style = 'lovelace'
+    style = 'github'
+    tabWidth = 4
+
+
